@@ -1,0 +1,19 @@
+.image-container {
+    position: relative;
+    width: 500px; /* Adjust according to your desired image size */
+    height: 500px; /* Adjust according to your desired image size */
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250%;
+    height: 250%;
+    transition: opacity 0.3s ease;
+    align-self: center
+}
+
+.hidden {
+    opacity: 0;
+}
